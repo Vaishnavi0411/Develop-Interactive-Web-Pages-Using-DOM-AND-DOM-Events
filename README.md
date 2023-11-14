@@ -16,7 +16,7 @@ In the current stage, the UI of the App is ready. You will be required to enable
 
 #### Practice 1 - Add a New Note to the To-Do List​ (Mandatory Practice)
 
-Write a JavaScript code that captures the details of the note entered by the user.​
+JavaScript code that captures the details of the note entered by the user.​
 
 ​The code should save the captured details and store them as an object in the notes array.​
 
@@ -38,7 +38,7 @@ Step 2: The function `saveNote()` should get invoked when the user clicks the `A
 
 #### Practice 2 - Display All Notes From the To-Do List​ (Mandatory Practice)
 
-Write a JavaScript code that reads notes data from the notes array and displays them on the UI.​
+ JavaScript code that reads notes data from the notes array and displays them on the UI.​
 
 Each of the notes' data should be displayed in a card layout.
 
@@ -88,17 +88,3 @@ Provide an option on the UI that will allow users to toggle between the grid vie
 Step 1: In the script.js file, define function `toggleView()`. The `toggleView()` function should dynamically add styles/CSS class that toggles the view between grid view and list view.​
 
 Step 2: The function `toggleView()` should get invoked when the user clicks on the link with the text "Toggle View".
-
-### Submission Instructions
-
-1. This is a test enabled practice, hence, the solution will have to undergo automated evaluation process. 
-    - For automated evaluation, the solution should be first tested locally and then on hobbes.
-2. Steps to test the code locally:
-    1. Ensure the solution code is provided in the specified files only.
-    2. From the command line terminal, set the path to the folder containing cloned boilerplate code.
-    3. Run the command `npm run test` to test the solution locally.
-    4. Ensure all the test cases are passing locally and then push the solution to git for automated testing on `hobbes`.
-3. Steps to test the code on hobbes:
-    1. Open the submission page at `https://codereview.stackroute.niit.com/#/submission`.
-    2. Submit the solution.
-    3. For the failed test cases, refactor the code locally and submit it for re-evaluation.
